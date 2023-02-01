@@ -1,0 +1,139 @@
+
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #c0c0c0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030c;
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    
+}
+
+.main{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.container__button{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    text-decoration: none;
+    color: var(--branco-principal);
+    display: block;
+    text-align: center;
+    margin: 1em 0 1em 0;
+}
+
+.container__text{
+    margin-bottom: 1em;
+}
+
+.button_secundary{
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
+    
+}
+
+.cotainer__imagem{
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa{
+    margin: 0 6em;
+}
+
+.imagem__secundario{
+    width: 80%;
+    
+}
+
+.secundario{
+    margin: 0 10em; 
+    
+}
+
+.titulo__descricao{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+
+.texto__descricao{
+    font-weight: 400;
+    color: var(--cinza-secundario);
+}
+
+.botao__assine{
+    margin-top: 2em;
+    background-color: var(--botao-azul);
+    padding: 1em;
+    border-radius: 5px;
+    color: var(--branco-principal);
+}
+
+.dispositivos{
+    text-align: center;
+}
+.dispositivos__titulo{
+    font-size: 48px;
+    color: var(--branco-principal);
+}
+
+.lista__item{
+    font-size: 32px;
+    color: var(--branco-principal);
+}
+
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+    
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer__lista{
+    display: flex;
+    justify-content: center;
+    margin: 2em 6em;
+    list-style-type: none;
+
+}
+
+.footer__item{
+    padding-right: 1em;
+}
+
+
+.footer__texto{
+    font-size: 12px;
+    text-align: center;
+    margin: 4em 15em;
+}
